@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width" />
+    <meta name="mobile-web-app-capable" content="yes">
+
+    <title>Music</title>
+
+    <link href="/css/normalize.css" rel="stylesheet">
+    <link href="/css/fonts.css" rel="stylesheet">
+    <link href="/css/music.css" rel="stylesheet">
+</head>
+<body>
+    <div id="side">
+        <div id="side-artists" class="side-view">
+            <ul rv-each-artist="artists">
+                <li>
+                    <span>{ artist.name }</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="/js/jquery-2.1.3.js"></script>
+    <script src="/js/sightglass.js"></script>
+    <script src="/js/rivets.js"></script>
+    <script src="/js/music.js"></script>
+</body>
